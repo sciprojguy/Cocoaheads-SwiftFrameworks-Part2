@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AF90FB11F29026F005DC32A /* GeoCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF90FA71F29026F005DC32A /* GeoCache.framework */; };
+		9AF90FB61F29026F005DC32A /* GeoCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF90FB51F29026F005DC32A /* GeoCacheTests.swift */; };
+		9AF90FB81F29026F005DC32A /* GeoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF90FAA1F29026F005DC32A /* GeoCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF90FB21F29026F005DC32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF90F9E1F29026F005DC32A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF90FA61F29026F005DC32A;
+			remoteInfo = GeoCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AF90FA71F29026F005DC32A /* GeoCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF90FAA1F29026F005DC32A /* GeoCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCache.h; sourceTree = "<group>"; };
+		9AF90FAB1F29026F005DC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF90FB01F29026F005DC32A /* GeoCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF90FB51F29026F005DC32A /* GeoCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCacheTests.swift; sourceTree = "<group>"; };
+		9AF90FB71F29026F005DC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF90FA31F29026F005DC32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF90FAD1F29026F005DC32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF90FB11F29026F005DC32A /* GeoCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF90F9D1F29026F005DC32A = {
+			isa = PBXGroup;
+			children = (
+				9AF90FA91F29026F005DC32A /* GeoCache */,
+				9AF90FB41F29026F005DC32A /* GeoCacheTests */,
+				9AF90FA81F29026F005DC32A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF90FA81F29026F005DC32A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF90FA71F29026F005DC32A /* GeoCache.framework */,
+				9AF90FB01F29026F005DC32A /* GeoCacheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF90FA91F29026F005DC32A /* GeoCache */ = {
+			isa = PBXGroup;
+			children = (
+				9AF90FAA1F29026F005DC32A /* GeoCache.h */,
+				9AF90FAB1F29026F005DC32A /* Info.plist */,
+			);
+			path = GeoCache;
+			sourceTree = "<group>";
+		};
+		9AF90FB41F29026F005DC32A /* GeoCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF90FB51F29026F005DC32A /* GeoCacheTests.swift */,
+				9AF90FB71F29026F005DC32A /* Info.plist */,
+			);
+			path = GeoCacheTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AF90FA41F29026F005DC32A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF90FB81F29026F005DC32A /* GeoCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AF90FA61F29026F005DC32A /* GeoCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF90FBB1F29026F005DC32A /* Build configuration list for PBXNativeTarget "GeoCache" */;
+			buildPhases = (
+				9AF90FA21F29026F005DC32A /* Sources */,
+				9AF90FA31F29026F005DC32A /* Frameworks */,
+				9AF90FA41F29026F005DC32A /* Headers */,
+				9AF90FA51F29026F005DC32A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCache;
+			productName = GeoCache;
+			productReference = 9AF90FA71F29026F005DC32A /* GeoCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AF90FAF1F29026F005DC32A /* GeoCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF90FBE1F29026F005DC32A /* Build configuration list for PBXNativeTarget "GeoCacheTests" */;
+			buildPhases = (
+				9AF90FAC1F29026F005DC32A /* Sources */,
+				9AF90FAD1F29026F005DC32A /* Frameworks */,
+				9AF90FAE1F29026F005DC32A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF90FB31F29026F005DC32A /* PBXTargetDependency */,
+			);
+			name = GeoCacheTests;
+			productName = GeoCacheTests;
+			productReference = 9AF90FB01F29026F005DC32A /* GeoCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF90F9E1F29026F005DC32A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UsefulSoft;
+				TargetAttributes = {
+					9AF90FA61F29026F005DC32A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 79GK225UV2;
+						ProvisioningStyle = Automatic;
+					};
+					9AF90FAF1F29026F005DC32A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 79GK225UV2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AF90FA11F29026F005DC32A /* Build configuration list for PBXProject "GeoCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AF90F9D1F29026F005DC32A;
+			productRefGroup = 9AF90FA81F29026F005DC32A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF90FA61F29026F005DC32A /* GeoCache */,
+				9AF90FAF1F29026F005DC32A /* GeoCacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF90FA51F29026F005DC32A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF90FAE1F29026F005DC32A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF90FA21F29026F005DC32A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF90FAC1F29026F005DC32A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF90FB61F29026F005DC32A /* GeoCacheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF90FB31F29026F005DC32A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF90FA61F29026F005DC32A /* GeoCache */;
+			targetProxy = 9AF90FB21F29026F005DC32A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AF90FB91F29026F005DC32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AF90FBA1F29026F005DC32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AF90FBC1F29026F005DC32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79GK225UV2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GeoCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.GeoCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9AF90FBD1F29026F005DC32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79GK225UV2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GeoCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.GeoCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9AF90FBF1F29026F005DC32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 79GK225UV2;
+				INFOPLIST_FILE = GeoCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.GeoCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9AF90FC01F29026F005DC32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 79GK225UV2;
+				INFOPLIST_FILE = GeoCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.GeoCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF90FA11F29026F005DC32A /* Build configuration list for PBXProject "GeoCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF90FB91F29026F005DC32A /* Debug */,
+				9AF90FBA1F29026F005DC32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF90FBB1F29026F005DC32A /* Build configuration list for PBXNativeTarget "GeoCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF90FBC1F29026F005DC32A /* Debug */,
+				9AF90FBD1F29026F005DC32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AF90FBE1F29026F005DC32A /* Build configuration list for PBXNativeTarget "GeoCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF90FBF1F29026F005DC32A /* Debug */,
+				9AF90FC01F29026F005DC32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF90F9E1F29026F005DC32A /* Project object */;
+}
