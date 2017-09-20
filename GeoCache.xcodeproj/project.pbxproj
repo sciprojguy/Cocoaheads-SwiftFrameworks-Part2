@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A136CD31F2BCDA400AC7373 /* create_1.0.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9A58B38B1F29095000E19985 /* create_1.0.sql */; };
+		9A58B38C1F29095000E19985 /* create_1.0.sql in Resources */ = {isa = PBXBuildFile; fileRef = 9A58B38B1F29095000E19985 /* create_1.0.sql */; };
+		9A58B38E1F29267800E19985 /* SQLHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58B38D1F29267800E19985 /* SQLHelpers.swift */; };
 		9AF90FB11F29026F005DC32A /* GeoCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF90FA71F29026F005DC32A /* GeoCache.framework */; };
 		9AF90FB61F29026F005DC32A /* GeoCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF90FB51F29026F005DC32A /* GeoCacheTests.swift */; };
 		9AF90FB81F29026F005DC32A /* GeoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF90FAA1F29026F005DC32A /* GeoCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF90FC21F2902F7005DC32A /* GeoCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF90FC11F2902F7005DC32A /* GeoCache.swift */; };
+		9AF90FC71F2903B1005DC32A /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AF90FC41F2903B1005DC32A /* sqlite3.c */; };
+		9AF90FC81F2903B1005DC32A /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF90FC51F2903B1005DC32A /* sqlite3.h */; };
+		9AF90FC91F2903B1005DC32A /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF90FC61F2903B1005DC32A /* sqlite3ext.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A58B38B1F29095000E19985 /* create_1.0.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_1.0.sql; sourceTree = "<group>"; };
+		9A58B38D1F29267800E19985 /* SQLHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLHelpers.swift; sourceTree = "<group>"; };
 		9AF90FA71F29026F005DC32A /* GeoCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF90FAA1F29026F005DC32A /* GeoCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCache.h; sourceTree = "<group>"; };
 		9AF90FAB1F29026F005DC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF90FB01F29026F005DC32A /* GeoCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF90FB51F29026F005DC32A /* GeoCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCacheTests.swift; sourceTree = "<group>"; };
 		9AF90FB71F29026F005DC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF90FC11F2902F7005DC32A /* GeoCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoCache.swift; sourceTree = "<group>"; };
+		9AF90FC41F2903B1005DC32A /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		9AF90FC51F2903B1005DC32A /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		9AF90FC61F2903B1005DC32A /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
+		9AF90FCA1F2903C2005DC32A /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A58B38A1F29094400E19985 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				9A58B38B1F29095000E19985 /* create_1.0.sql */,
+			);
+			name = SQL;
+			sourceTree = "<group>";
+		};
 		9AF90F9D1F29026F005DC32A = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +93,12 @@
 		9AF90FA91F29026F005DC32A /* GeoCache */ = {
 			isa = PBXGroup;
 			children = (
+				9A58B38A1F29094400E19985 /* SQL */,
+				9AF90FC31F2903B1005DC32A /* sqlite3 */,
 				9AF90FAA1F29026F005DC32A /* GeoCache.h */,
 				9AF90FAB1F29026F005DC32A /* Info.plist */,
+				9AF90FC11F2902F7005DC32A /* GeoCache.swift */,
+				9A58B38D1F29267800E19985 /* SQLHelpers.swift */,
 			);
 			path = GeoCache;
 			sourceTree = "<group>";
@@ -86,6 +112,17 @@
 			path = GeoCacheTests;
 			sourceTree = "<group>";
 		};
+		9AF90FC31F2903B1005DC32A /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				9AF90FC41F2903B1005DC32A /* sqlite3.c */,
+				9AF90FC51F2903B1005DC32A /* sqlite3.h */,
+				9AF90FC61F2903B1005DC32A /* sqlite3ext.h */,
+				9AF90FCA1F2903C2005DC32A /* module.modulemap */,
+			);
+			path = sqlite3;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +130,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF90FC81F2903B1005DC32A /* sqlite3.h in Headers */,
 				9AF90FB81F29026F005DC32A /* GeoCache.h in Headers */,
+				9AF90FC91F2903B1005DC32A /* sqlite3ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +188,7 @@
 					9AF90FA61F29026F005DC32A = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 79GK225UV2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					9AF90FAF1F29026F005DC32A = {
@@ -181,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A58B38C1F29095000E19985 /* create_1.0.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A136CD31F2BCDA400AC7373 /* create_1.0.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A58B38E1F29267800E19985 /* SQLHelpers.swift in Sources */,
+				9AF90FC21F2902F7005DC32A /* GeoCache.swift in Sources */,
+				9AF90FC71F2903B1005DC32A /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +369,7 @@
 		9AF90FBC1F29026F005DC32A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79GK225UV2;
@@ -333,9 +379,12 @@
 				INFOPLIST_FILE = GeoCache/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.GeoCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/GeoCache/sqlite3";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -343,6 +392,7 @@
 		9AF90FBD1F29026F005DC32A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79GK225UV2;
@@ -352,9 +402,11 @@
 				INFOPLIST_FILE = GeoCache/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UsefulSoft.GeoCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/GeoCache/sqlite3";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -362,6 +414,7 @@
 		9AF90FBF1F29026F005DC32A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 79GK225UV2;
 				INFOPLIST_FILE = GeoCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +427,7 @@
 		9AF90FC01F29026F005DC32A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 79GK225UV2;
 				INFOPLIST_FILE = GeoCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -402,6 +456,7 @@
 				9AF90FBD1F29026F005DC32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF90FBE1F29026F005DC32A /* Build configuration list for PBXNativeTarget "GeoCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +465,7 @@
 				9AF90FC01F29026F005DC32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
